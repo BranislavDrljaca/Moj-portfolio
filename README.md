@@ -103,7 +103,7 @@
                     <p class="projectdesc">Web sajt Šahovskog kluba "Kralj" iz Banja Luke</p>
                     <a href="https://github.com/BranislavDrljaca/sahovski-klub" target="_blank" class="waves-effect waves-light btn-small gotobtn"><i class="material-icons right">send</i>POGLEDAJ NA GITHUB</a>
                     <div class="badgeextra left-align">
-                        <span class="new badge green" data-badge-caption="Responsive"></span>  
+                        <spgan class="new badge green" data-badge-caption="Responsive"></span>  
                 
                         <span class="new badge yellow accent-4" data-badge-caption="JavaScript"></span>
                      
