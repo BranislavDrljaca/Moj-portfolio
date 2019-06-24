@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
 .gradient1, .section1 {
-  background: #a11143;
-  background: linear-gradient(135deg, #a11143 27%, #01abce 76%);
+  background: #E9967A;
+  background: linear-gradient(135deg, #8FBC8F 27%,  #87CEFA 76%);
 }
 
 .gradient2 {
