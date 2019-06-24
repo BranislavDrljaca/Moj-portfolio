@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+$navy: #061b40;
+
+.gradient1{
+    background: rgb(161,17,67);
+    background: linear-gradient(135deg, rgba(161,17,67,1) 27%, rgba(1,171,206,1) 76%);
+}
+
+.gradient2{
+    background: rgb(74,20,140);
+background: linear-gradient(135deg, rgba(74,20,140,1) 11%, rgba(74,20,140,1) 30%, rgba(70,35,152,1) 39%, rgba(69,41,157,1) 46%, rgba(47,127,226,1) 68%, rgba(33,150,243,1) 89%);
+}
+
+.gradientsmall{
+    background: rgb(74,20,140);
+background: linear-gradient(215deg, rgba(74,20,140,1) 11%, rgba(74,20,140,1) 26%, rgba(71,32,150,1) 42%, rgba(67,47,162,1) 50%, rgba(47,127,226,1) 68%, rgba(33,150,243,1) 89%);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x:hidden; 
+  /* position: relative; */
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.curve {
+  position: absolute;
+  bottom: 0;
+  
+  path {
+    fill: #fff;
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
+.section1 {
+  @extend .gradient1;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 80vh;
+  z-index:0;
+}
+/* 
+.section2 {
+  height: 100vh;
+  background-color: #fff;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+ */
+
+.welcome{
+    text-align: end;
+}
+
+.typewriter{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height:100%;
+    padding: 0 3rem;
+    margin: auto;
+   
+}
+
+.greeting{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.intro{
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+/* Cursor */
+.txt-type .txt{
+    font-weight: bold;
+    border-right: 1px solid #fff;
+}
+
+#bojan{
+    width: 26vw;
+    position: absolute;
+    bottom: 0px;
+    right: 9.2%;
+    z-index: -10;
+
+}
+
+.blockquote{
+    background: #fff;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.blockquote p {
+    font-family: Poppins, cursive;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1em;
+    color: $navy;
+    padding-bottom:25px;
+}
+.imgquote{
+    display:block;
+    margin:auto;
+    height:5em;
+}
+
+
+.bold{
+    font-weight: 900;
+    font-size: 1.1em;
+    font-family: 'Inconsolata', monospace;
+}
+
+.htmltags{
+    padding-top:30px;
+}
+
+.chapter{
+    @extend .gradientsmall;
+    color:white;
+    transform: skewX(-12deg) skewY(-2.5deg);
+    margin-top: 50px;
+}
+
+.chaptericon{
+    transform: skewX(12deg) skewY(2.5deg);
+}
+
+.chaptertitle{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chaptersubtitle{
+    @extend .chaptertitle;
+    color: $navy;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.chaptertext{
+    font-family: Poppins, cursive;
+    padding: 25px;
+    color: $navy;
+}
+
+.imgwrapper{
+    margin-top: 20px;
+    img{
+        height: 100px;
+    }
+}
+
+.projects{
+    margin: auto;
+}
+
+.project{
+    margin-top:25px;
+    margin-bottom: 0;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+}
+
+.projectimg{
+    height: 192px;
+    margin-top: 25px;
+}
+
+.projecttitle{
+    color:$navy;
+}
+
+.gotobtn{
+    background: rgb(247,120,3);
+    background: linear-gradient(225deg, rgba(247,120,3,1) 11%, rgba(45,12,87,1) 89%);
+}
+
+.badges{
+    padding-top: 20px;
+}
+
+.badgeextra{
+    padding-top: 40px;
+}
+
+.badges, .badgeextra{
+    span{
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.endquote{
+    margin-top: 60px;
+}
+
+.endquotetext{
+    padding:0;
+    margin-bottom:0;
+}
+
+footer{
+    background: rgb(161,17,67);
+    background: linear-gradient(225deg, rgba(161,17,67,1) 27%, rgba(1,171,206,1) 76%);
+    margin-top: 50px;
+    span{
+        font-weight: bold;
+    }
+    p{
+        margin:0;
+        padding: 10px;
+        color:#fff;
+        text-align: center;
+    }
+}
+
+#build{
+    margin-top: -50px;
+    height: 282px;
+}
+
+.contactme{
+    padding-top: 50px;
+    text-align: left;
+    padding-right:20px;
+    font-weight: 500;
+}
+
+.info{
+    text-align: left;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.infoblock, .linksblock{
+    display: inline-block;
+}
+
+.nav, .nav:hover{
+    background: #a11143;
+}
+
+.navlink{
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+@media(max-width:950px){
+    #bojan{
+        width:40vw;
+        right:0;
+    }
+}
