@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+.gradient1, .section1 {
+  background: #a11143;
+  background: linear-gradient(135deg, #a11143 27%, #01abce 76%);
+}
+
+.gradient2 {
+  background: #4a148c;
+  background: linear-gradient(135deg, #4a148c 11%, #4a148c 30%, #462398 39%, #45299d 46%, #2f7fe2 68%, #2196f3 89%);
+}
+
+.gradientsmall, .chapter {
+  background: #4a148c;
+  background: linear-gradient(215deg, #4a148c 11%, #4a148c 26%, #472096 42%, #432fa2 50%, #2f7fe2 68%, #2196f3 89%);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  /* position: relative; */
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.curve {
+  position: absolute;
+  bottom: 0;
+}
+.curve path {
+  fill: #fff;
+  position: absolute;
+  bottom: 0px;
+}
+
+.section1 {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 80vh;
+  z-index: 0;
+}
+
+/* 
+.section2 {
+  height: 100vh;
+  background-color: #fff;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+ */
+.welcome {
+  text-align: end;
+}
+
+.typewriter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding: 0 3rem;
+  margin: auto;
+}
+
+.greeting {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.intro {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+/* Cursor */
+.txt-type .txt {
+  font-weight: bold;
+  border-right: 1px solid #fff;
+}
+
+#bojan {
+	width: 26vw;
+	position: absolute;
+	bottom: 2px;
+	right: 9.2%;
+	z-index: -10;
+}
+
+.blockquote {
+  background: #fff;
+  z-index: 10;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.blockquote p {
+  font-family: Poppins, cursive;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1em;
+  color: #061b40;
+  padding-bottom: 25px;
+}
+
+.imgquote {
+  display: block;
+  margin: auto;
+  height: 5em;
+}
+
+.bold {
+  font-weight: 900;
+  font-size: 1.1em;
+  font-family: "Inconsolata", monospace;
+}
+
+.htmltags {
+  padding-top: 30px;
+}
+
+.chapter {
+  color: white;
+  transform: skewX(-12deg) skewY(-2.5deg);
+  margin-top: 50px;
+}
+
+.chaptericon {
+  transform: skewX(12deg) skewY(2.5deg);
+}
+
+.chaptertitle, .chaptersubtitle {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.chaptersubtitle {
+  color: #061b40;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.chaptertext {
+  font-family: Poppins, cursive;
+  padding: 25px;
+  color: #061b40;
+}
+
+.imgwrapper {
+  margin-top: 20px;
+}
+.imgwrapper img {
+  height: 100px;
+}
+
+.projects {
+  margin: auto;
+}
+
+.project {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+.projectimg {
+  height: 192px;
+  margin-top: 25px;
+}
+
+.projecttitle {
+  color: #061b40;
+}
+
+.gotobtn {
+  background: #f77803;
+  background: linear-gradient(225deg, #f77803 11%, #2d0c57 89%);
+}
+
+.badges {
+  padding-top: 20px;
+}
+
+.badgeextra {
+  padding-top: 40px;
+}
+
+.badges span, .badgeextra span {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.endquote {
+  margin-top: 60px;
+}
+
+.endquotetext {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  background: #a11143;
+  background: linear-gradient(225deg, #a11143 27%, #01abce 76%);
+  margin-top: 50px;
+}
+footer span {
+  font-weight: bold;
+}
+footer p {
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+#build {
+  margin-top: -50px;
+  height: 282px;
+}
+
+.contactme {
+  padding-top: 50px;
+  text-align: left;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+.info {
+  text-align: left;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.infoblock, .linksblock {
+  display: inline-block;
+}
+
+.nav, .nav:hover {
+  background: #a11143;
+}
+
+.navlink {
+  font-size: 20px;
+  font-family: "Inconsolata", monospace;
+}
+
+@media (max-width: 950px) {
+  #branislav {
+	width: 50vw;
+	right: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
